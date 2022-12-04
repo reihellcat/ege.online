@@ -20,7 +20,7 @@ export default function Home() {
             <ul className="flex items-center">
               <li>
                 <a
-                  className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-5 py-2 border-none rounded-md ml-8"
+                  className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-5 py-2 border-spacing-1 rounded-md ml-8"
                   href="#"
                 >
                   Войти
