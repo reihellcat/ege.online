@@ -17,16 +17,6 @@ export default function Home() {
         <section className="min-h-screen">
           <nav className="p-4 flex bg-[#212932] justify-between">
               <h1 className="text-2xl ml-2">EGE.online</h1>
-            <ul className="flex items-center">
-              <li>
-                <a
-                  className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-5 py-2 border-spacing-1 rounded-md ml-8"
-                  href="#"
-                >
-                  Войти
-                </a>
-              </li>
-            </ul>
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 font-medium">EGE.online</h2>
