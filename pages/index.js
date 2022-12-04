@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { BsFillMoonStarsFill, BsTelegram } from "react-icons/bs";
 import { MdMenuBook } from "react-icons/md";
+import { TbMath } from 'react-icons/tb'
 
 export default function Home() {
   return (
@@ -16,15 +17,21 @@ export default function Home() {
       <main className=" text-white bg-[#1A2026] font-apple123">
         <section className="min-h-screen">
           <nav className="p-4 flex bg-[#212932] justify-between">
-              <h1 className="text-2xl ml-2">EGE.online</h1>
+            <h1 className="text-2xl ml-2">EGE.online</h1>
           </nav>
           <div className="text-center p-10">
             <h2 className="text-5xl py-2 font-medium">EGE.online</h2>
             <h3 className="text-2xl py-2">
               Полезные материалы для подготовки к ЕГЭ
             </h3>
+            </div>
+            <div className="justify-center">
+            <div className="justify-center text-center shadow-lg bg-[#242E38] py-10 rounded-xl m-10 h-60 w-72">
+              <h2 className="text-2xl mb-2">Русский язык</h2>
+              <a className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-4 py-2 rounded-md mt-5" href="/russian">Перейти</a>
+            </div>
           </div>
-        </section>
+          </section>
       </main>
     </div>
   );
