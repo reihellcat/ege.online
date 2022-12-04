@@ -25,10 +25,18 @@ export default function Home() {
               Полезные материалы для подготовки к ЕГЭ
             </h3>
             </div>
-            <div className="justify-center">
+            <div className="flex justify-center">
             <div className="justify-center text-center shadow-lg bg-[#242E38] py-10 rounded-xl m-10 h-60 w-72">
               <h2 className="text-2xl mb-2">Русский язык</h2>
               <a className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-4 py-2 rounded-md mt-5" href="/russian">Перейти</a>
+            </div>
+            <div className="justify-center text-center shadow-lg bg-[#242E38] py-10 rounded-xl m-10 h-60 w-72">
+              <h2 className="text-2xl mb-2">Математика</h2>
+              <a className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-4 py-2 rounded-md mt-5" href="/math">Перейти</a>
+            </div>
+            <div className="justify-center text-center shadow-lg bg-[#242E38] py-10 rounded-xl m-10 h-60 w-72">
+              <h2 className="text-2xl mb-2">Обществознание</h2>
+              <a className="bg-[#248BDA] hover:bg-[#207CC2] text-white px-4 py-2 rounded-md mt-5" href="/social">Перейти</a>
             </div>
           </div>
           </section>
